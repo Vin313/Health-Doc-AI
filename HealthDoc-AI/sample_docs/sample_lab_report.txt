@@ -1,0 +1,27 @@
+Lab Report
+Patient Name: John Appleseed
+Collection Date: 2025-08-22
+
+Lipid Panel
+
+Cholesterol, Total: 180 mg/dL (Desirable: <200)
+
+HDL Cholesterol: 45 mg/dL (Desirable: >40)
+
+LDL Cholesterol: 100 mg/dL (Desirable: <100)
+
+Triglycerides: 150 mg/dL (Desirable: <150)
+
+Basic Metabolic Panel
+
+Sodium: 140 mEq/L (Normal: 135-145)
+
+Potassium: 4.1 mEq/L (Normal: 3.5-5.0)
+
+Glucose: 110 mg/dL (Normal: 70-100)
+
+Blood Urea Nitrogen (BUN): 15 mg/dL (Normal: 7-20)
+
+Creatinine: 0.9 mg/dL (Normal: 0.6-1.2)
+
+Notes: Glucose is slightly elevated, consistent with the patient's history of Type 2 Diabetes. Lipid profile is at target levels post-statin therapy.
