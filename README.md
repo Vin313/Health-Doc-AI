@@ -2,6 +2,7 @@
 
 HealthDoc AI is a powerful, intuitive conversational AI application that allows users to chat with their healthcare documents. Built with Python, Streamlit, and LangChain, it provides a secure and private way to quickly find information within medical records like discharge summaries, lab reports, and prescriptions.
 
+<img width="1920" height="960" alt="image" src="https://github.com/user-attachments/assets/7c595831-727b-47b2-8d8a-ae50e2014c18" />
 
 
 ## ✨ Core Features
@@ -27,8 +28,6 @@ The application employs a RAG (Retrieval Augmented Generation) architecture orch
 6.  **Generation:** The retrieved chunks, the user's question, and the chat history are passed to an OpenAI LLM (e.g., GPT-3.5-Turbo). The LLM synthesizes this information to generate a coherent, accurate answer.
 7.  **Response:** The final answer is displayed to the user in the chat interface.
 
-![Architectural Diagram of the RAG pipeline](https://i.imgur.com/3A8d7Yj.png)
-
 ---
 
 ## 🛠️ Setup and Installation
@@ -44,7 +43,7 @@ Follow these steps to run the application locally.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/HealthDoc-AI.git](https://github.com/your-username/HealthDoc-AI.git)
+    git clone https://github.com/Vin313/Health-Doc-AI
     cd HealthDoc-AI
     ```
 
@@ -63,7 +62,7 @@ Follow these steps to run the application locally.
     * Create a file named `.env` in the root of the project.
     * Add your OpenAI API key to this file:
         ```
-        OPENAI_API_KEY="sk-YourSecretAPIKeyGoesHere"
+        OPENAI_API_KEY="YourSecretAPIKeyGoesHere"
         ```
 
 ### Running the Application
@@ -83,7 +82,7 @@ Follow these steps to run the application locally.
 3.  **Ask Questions:** Once processing is complete, use the chat input at the bottom of the screen to ask questions about your documents.
 
 **Sample Questions:**
-* _What medications was the patient prescribed?_
+* _What medications were the patient prescribed?_
 * _Summarize the key findings from the lab report._
 * _What was the patient's glucose level?_
 * _Are there any drug allergies mentioned?_
@@ -95,8 +94,6 @@ Follow these steps to run the application locally.
 
 * **No Data Storage:** This application does not store your documents or conversations. All processing is done in-memory for the duration of your session.
 * **Anonymized Data:** The provided sample documents are entirely fictional and contain no real patient data.
-* **Medical Disclaimer:** The application includes a clear disclaimer that it is not a medical device and should not be used for clinical decisions. This is a proof-of-concept tool.
-* **HIPAA Principles:** The architecture is designed with HIPAA-like principles in mind, prioritizing data privacy and transient data handling.
 
 ## ⚠️ Limitations
 
